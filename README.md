@@ -1,1 +1,1 @@
-# DS_master_2026
+# Domantas Sakalys, Master Thesis 2026
