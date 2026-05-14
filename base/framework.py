@@ -275,11 +275,11 @@ class Framework:
         print(f"rate: {rate:.2f}")
 
         plot_raster(E_spikes, I_spikes, "Excitatory raster", "Inhibitory raster", g = self.g, eta = self.eta, CV = CV, rho_mean = rho_mean, rate = rate)
-        #plot_rate_distribution(self.time, E_spike_counts, I_spike_counts, "Excitatory rate distribution", "Inhibitory rate distribution")
+        plot_rate_distribution(self.time, E_spike_counts, I_spike_counts, "Excitatory rate distribution", "Inhibitory rate distribution")
         #plot_spike_distribution(E_spike_counts, I_spike_counts, "Excitatory and inhibitory spike distribution")
-        #plot_EI_positions(self.pos_E, self.pos_I)
+        plot_EI_positions(self.pos_E, self.pos_I)
         #plot_outgoing_connections(self.mask_EE, self.pos_E, 450, "Outgoing connections from excitatory neuron 450")
-        #plot_spikecount_grid(E_spike_counts, self.pos_E, "Excitatory spike count heatmap")
+        plot_spikecount_grid(E_spike_counts, self.pos_E, "Excitatory spike count heatmap")
         
 
     
