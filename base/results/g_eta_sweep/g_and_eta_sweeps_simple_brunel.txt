@@ -1,0 +1,28 @@
+Simple Brunel  g=3  eta=0.6  accuracy=38.00%  CV=0.256  rho=0.181  rate=29.990
+Simple Brunel  g=3  eta=0.9  accuracy=26.00%  CV=0.235  rho=0.211  rate=40.060
+Simple Brunel  g=4  eta=0.6  accuracy=24.00%  CV=0.263  rho=0.133  rate=26.530
+Simple Brunel  g=4  eta=0.9  accuracy=26.00%  CV=0.264  rho=0.172  rate=33.260
+Simple Brunel + heterogeneity  g=2  eta=0.6  accuracy=9.00%  CV=0.004  rho=0.643  rate=483.253
+Simple Brunel + heterogeneity  g=2  eta=0.9  accuracy=25.00%  CV=0.004  rho=0.628  rate=483.810
+Simple Brunel + heterogeneity  g=2  eta=1.2  accuracy=22.00%  CV=0.004  rho=0.632  rate=484.055
+Simple Brunel + heterogeneity  g=2  eta=1.5  accuracy=15.00%  CV=0.004  rho=0.630  rate=484.208
+Simple Brunel + heterogeneity  g=3  eta=0.6  accuracy=11.00%  CV=0.012  rho=0.565  rate=482.346
+Simple Brunel + heterogeneity  g=3  eta=0.9  accuracy=17.00%  CV=0.013  rho=0.548  rate=482.982
+Simple Brunel + heterogeneity  g=3  eta=1.2  accuracy=13.00%  CV=0.012  rho=0.545  rate=483.304
+Simple Brunel + heterogeneity  g=3  eta=1.5  accuracy=21.00%  CV=0.013  rho=0.553  rate=483.428
+Simple Brunel + heterogeneity  g=4  eta=0.6  accuracy=69.00%  CV=0.799  rho=0.326  rate=105.716
+Simple Brunel + heterogeneity  g=4  eta=0.9  accuracy=64.00%  CV=0.788  rho=0.322  rate=110.801
+Simple Brunel + heterogeneity  g=4  eta=1.2  accuracy=65.00%  CV=0.782  rho=0.318  rate=114.089
+Simple Brunel + heterogeneity  g=4  eta=1.5  accuracy=64.00%  CV=0.783  rho=0.317  rate=115.023
+Simple Brunel + heterogeneity  g=5  eta=0.6  accuracy=72.00%  CV=0.856  rho=0.254  rate=28.804
+Simple Brunel + heterogeneity  g=5  eta=0.9  accuracy=72.00%  CV=0.861  rho=0.263  rate=29.589
+Simple Brunel + heterogeneity  g=5  eta=1.2  accuracy=72.00%  CV=0.867  rho=0.261  rate=30.307
+Simple Brunel + heterogeneity  g=5  eta=1.5  accuracy=73.00%  CV=0.866  rho=0.264  rate=30.445
+Simple Brunel + heterogeneity  g=6  eta=0.6  accuracy=70.00%  CV=0.915  rho=0.274  rate=19.789
+Simple Brunel + heterogeneity  g=6  eta=0.9  accuracy=69.00%  CV=0.925  rho=0.296  rate=20.329
+Simple Brunel + heterogeneity  g=6  eta=1.2  accuracy=72.00%  CV=0.922  rho=0.302  rate=20.693
+Simple Brunel + heterogeneity  g=6  eta=1.5  accuracy=67.00%  CV=0.920  rho=0.301  rate=20.759
+Simple Brunel  g=7  eta=0.6  accuracy=70.00%  CV=0.927  rho=0.297  rate=15.790
+Simple Brunel  g=7  eta=0.9  accuracy=67.00%  CV=0.927  rho=0.332  rate=16.177
+Simple Brunel  g=7  eta=1.2  accuracy=75.00%  CV=0.932  rho=0.341  rate=16.483
+Simple Brunel  g=7  eta=1.5  accuracy=71.00%  CV=0.928  rho=0.339  rate=16.649

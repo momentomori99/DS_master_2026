@@ -1,0 +1,44 @@
+RUN: 2026-04-28 19:20:18
+==================================================
+PARAMETERS
+==================================================
+  n_neurons            = 1000
+  n_epochs             = 100
+  examples_train       = 500
+  examples_test        = 125
+  n_splits             = 10
+  use_pca              = True
+  pca_variance         = 0.95
+  time                 = 250
+  dt                   = 1.0
+  intensity            = 210
+  seed                 = 42
+  mnist_input          = True
+  heterogeneity        = True
+  self_tuning          = False
+  spatial              = False
+  convolution          = False
+  log_normal           = False
+  g                    = 5
+  eta                  = 1.3
+  sigma_input          = 1
+  sigma_network        = 1
+  epsilon              = 0.5
+
+==================================================
+SPLITS
+==================================================
+Split  1/10  acc=77.60%  pca_acc=74.40%  n_PC=367  avg_CV=0.7966  avg_rho=0.0946  avg_rate=24.2135
+Split  2/10  acc=78.40%  pca_acc=70.40%  n_PC=366  avg_CV=0.7975  avg_rho=0.0963  avg_rate=23.7287
+Split  3/10  acc=78.40%  pca_acc=79.20%  n_PC=363  avg_CV=0.7950  avg_rho=0.0930  avg_rate=23.7189
+Split  4/10  acc=68.80%  pca_acc=66.40%  n_PC=367  avg_CV=0.7986  avg_rho=0.0947  avg_rate=23.9078
+Split  5/10  acc=84.00%  pca_acc=76.80%  n_PC=367  avg_CV=0.7974  avg_rho=0.0957  avg_rate=23.9972
+Split  6/10  acc=73.60%  pca_acc=68.80%  n_PC=361  avg_CV=0.7993  avg_rho=0.0952  avg_rate=24.4317
+Split  7/10  acc=70.40%  pca_acc=64.80%  n_PC=363  avg_CV=0.8021  avg_rho=0.0947  avg_rate=24.1138
+Split  8/10  acc=81.60%  pca_acc=74.40%  n_PC=366  avg_CV=0.7982  avg_rho=0.0951  avg_rate=23.9282
+Split  9/10  acc=76.00%  pca_acc=65.60%  n_PC=364  avg_CV=0.7995  avg_rho=0.0943  avg_rate=23.9344
+Split 10/10  acc=74.40%  pca_acc=66.40%  n_PC=364  avg_CV=0.7987  avg_rho=0.0943  avg_rate=24.1143
+
+==================================================
+FINAL raw   mean=76.32%  std=4.47%
+FINAL PCA   mean=70.72%  std=4.88%

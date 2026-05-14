@@ -1,0 +1,44 @@
+RUN: 2026-04-28 19:43:36
+==================================================
+PARAMETERS
+==================================================
+  n_neurons            = 1000
+  n_epochs             = 100
+  examples_train       = 500
+  examples_test        = 125
+  n_splits             = 10
+  use_pca              = True
+  pca_variance         = 0.95
+  time                 = 250
+  dt                   = 1.0
+  intensity            = 150
+  seed                 = 42
+  mnist_input          = True
+  heterogeneity        = True
+  self_tuning          = False
+  spatial              = True
+  convolution          = False
+  log_normal           = False
+  g                    = 5
+  eta                  = 1.3
+  sigma_input          = 1
+  sigma_network        = 1
+  epsilon              = 0.5
+
+==================================================
+SPLITS
+==================================================
+Split  1/10  acc=89.60%  pca_acc=83.20%  n_PC=89  avg_CV=0.4281  avg_rho=0.0195  avg_rate=59.6240
+Split  2/10  acc=83.20%  pca_acc=82.40%  n_PC=90  avg_CV=0.4294  avg_rho=0.0192  avg_rate=58.6793
+Split  3/10  acc=88.80%  pca_acc=91.20%  n_PC=91  avg_CV=0.4287  avg_rho=0.0192  avg_rate=58.9622
+Split  4/10  acc=82.40%  pca_acc=78.40%  n_PC=96  avg_CV=0.4283  avg_rho=0.0193  avg_rate=59.1904
+Split  5/10  acc=86.40%  pca_acc=80.00%  n_PC=87  avg_CV=0.4287  avg_rho=0.0194  avg_rate=59.2228
+Split  6/10  acc=89.60%  pca_acc=83.20%  n_PC=84  avg_CV=0.4271  avg_rho=0.0196  avg_rate=59.8634
+Split  7/10  acc=80.00%  pca_acc=76.00%  n_PC=87  avg_CV=0.4280  avg_rho=0.0194  avg_rate=59.3978
+Split  8/10  acc=86.40%  pca_acc=84.00%  n_PC=93  avg_CV=0.4285  avg_rho=0.0193  avg_rate=59.1424
+Split  9/10  acc=87.20%  pca_acc=86.40%  n_PC=89  avg_CV=0.4283  avg_rho=0.0193  avg_rate=59.1199
+Split 10/10  acc=81.60%  pca_acc=82.40%  n_PC=88  avg_CV=0.4293  avg_rho=0.0194  avg_rate=59.2412
+
+==================================================
+FINAL raw   mean=85.52%  std=3.31%
+FINAL PCA   mean=82.72%  std=3.99%
